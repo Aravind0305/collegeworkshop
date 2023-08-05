@@ -2,7 +2,9 @@ package model;
 
 import java.util.Date;
 
-public class Student {
+public class Student{
+
+
     private String studentId;
     private String name;
     private String course;
@@ -15,6 +17,38 @@ public class Student {
         this.studentId = studentId;
     }
 
-    private Date startDate;
-    private Date endDate;
+    private String startDate;
+    private String endDate;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
+
+    public String getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
+    }
+
+    public String getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(String endDate) {
+        this.endDate = endDate;
+    }
 }
